@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+.custom-font{
+  font-family: 'Montserrat', sans-serif;
+}
+.custom-shadow{ 
+  filter:         drop-shadow(5px 5px 4px rgba(125, 125, 125, 0.399)); 
+}
+
+.custom-bg{
+  background-color: #FFCE00;
+}
+
+.custombgredup{
+  background-color: #ffe270;
+}
+
+.dropdown-item:active{
+  background-color: #020710 !important;
+}
+
+
+.box-custom {
+  transition: box-shadow .3s;
+}
+
+.box-custom:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
